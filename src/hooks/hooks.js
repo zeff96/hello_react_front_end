@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from 'react-redux';
 
-const useAppDispatch = useDispatch
-const useAppSelector = useSelector
+export const useAppDispatch = useDispatch;
+export const useAppSelector = useSelector;

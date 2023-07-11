@@ -58,7 +58,6 @@
   "bugs": {
     "url": "https://github.com/zeff96/hello_react_front_end/issues"
   },
-  "homepage": "https://github.com/zeff96/hello_react_front_end#readme",
   "keywords": [],
   "devDependencies": {
     "stylelint": "^13.13.1",

@@ -60,9 +60,8 @@ git@github.com:zeff96/hello_react_front_end.git
 
 ### Hello_rails_back_end
 
-```sh
-https://github.com/zeff96/hello-rails-back-end/pull/1
-```
+[API Link](https://github.com/zeff96/hello-rails-back-end/pull/1)
+
 
 ### Prerequisites:
 

@@ -19,6 +19,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "stylelint-config-standard": "21.x",
     "stylelint-csstree-validator": "1.x",
@@ -52,5 +53,8 @@
   "main": "index.js",
   "repository": "git@github.com:zeff96/hello_react_front_end.git",
   "author": "zeff96 <zeffo1975@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^15.10.1"
+  }
 }

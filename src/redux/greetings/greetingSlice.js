@@ -25,6 +25,17 @@ const greetingSlice = createSlice({
   name: 'greetings',
   initialState,
   extraReducers(builder){
-    builder.addCase
+    builder.addCase(getGreetingsAsync.pending,(state)=>({
+      ...state,
+      isLoading: true
+    })).addCase(getGreetingsAsync.fulfilled, (state, action)=>({
+      ...state,
+      greeting: action.payload,
+      isLoading: false
+    })).addCase(getGreetingsAsync.rejected,(state, action)=>({
+      ...state,
+      isLoading:false,
+      error: action.error.message
+    }))
   }
 })

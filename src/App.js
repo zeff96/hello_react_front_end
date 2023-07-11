@@ -4,7 +4,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element/>
+        <Route exact path="/" element={<Greetings />}/>
       </Routes>
     </Router>
   );
